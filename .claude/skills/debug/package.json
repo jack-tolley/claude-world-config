@@ -1,0 +1,12 @@
+{
+  "name": "debug-skill",
+  "version": "1.0.0",
+  "description": "Debug skill scripts for evidence-based debugging",
+  "scripts": {
+    "server": "node scripts/debug_server.js",
+    "cleanup": "node scripts/debug_cleanup.js",
+    "cleanup:dry": "node scripts/debug_cleanup.js --dry-run"
+  },
+  "keywords": ["debug", "logging", "claude-code"],
+  "license": "MIT"
+}
