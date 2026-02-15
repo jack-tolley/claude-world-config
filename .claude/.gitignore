@@ -1,0 +1,11 @@
+# Local Claude settings with project-specific permissions
+settings.local.json
+
+# macOS
+.DS_Store
+
+# Debug files
+.debug/
+
+# Logs
+*.log
