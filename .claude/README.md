@@ -177,6 +177,30 @@ Identifies time-wasting tasks and recommends high-ROI automation opportunities.
 5. Implement or prototype
 6. Measure and iterate
 
+#### Dev Academy Sales Skill (`skills/dev-academy-sales/`)
+
+Multi-agent sales workflow for Dev Academy lead management and response drafting.
+
+**Triggers:**
+- "Draft a response to this lead"
+- "Run a lead prioritisation session"
+- Working with HubSpot CRM data
+
+**Features:**
+- Lead routing (apply/call/Week Zero)
+- Multi-agent review (classify → draft → review)
+- HubSpot CRM integration
+- Objection handling library
+- Token usage tracking
+- Positive framing (no White Bear violations)
+
+**Workflow:**
+1. Classify lead (HubSpot lookup + routing decision)
+2. Draft response (casual NZ tone, product-appropriate)
+3. Review (check tone, links, CRM consistency)
+4. Present to user with CRM action recommendations
+5. Execute approved actions
+
 ### Scripts
 
 Located in `scripts/` — helper scripts used by skills:
