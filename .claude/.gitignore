@@ -1,6 +1,9 @@
 # Local Claude settings with project-specific permissions
 settings.local.json
 
+# Private/business-specific skills
+skills/dev-academy-sales/
+
 # macOS
 .DS_Store
 
